@@ -3,7 +3,7 @@
 
 
 def is_even_len(string: str) -> bool:
-    result = len(string) / 2 is int
+    result = len(string) % 2 == 0
     return result
 
 
@@ -25,7 +25,6 @@ def replace_char(string: str, old_char: str, new_char: str) -> str:
 
 
 def get_nb_char(string: str, char: str) -> int:
-    print(string)
     number_of_char = 0
     for letter in string:
         if ord(letter) == ord(char):

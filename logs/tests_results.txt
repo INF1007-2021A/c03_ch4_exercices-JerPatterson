@@ -8,7 +8,7 @@ test_replace_char (__main__.TestExercice) ... ok
 FAIL: test_pair (__main__.TestExercice)
 ----------------------------------------------------------------------
 Traceback (most recent call last):
-  File "c:\Users\patte\OneDrive\Documents\Polytechnique\Intro à la programmation\c03_ch4_exercices-JerPatterson\test_exercice.py", line 18, in test_pair
+  File "C:\Users\patte\OneDrive\Documents\Polytechnique\Intro à la programmation\Exercices\c03_ch4_exercices-JerPatterson\test_exercice.py", line 18, in test_pair
     self.assertListEqual(
 AssertionError: Lists differ: [False, False, False] != [True, False, False]
 
